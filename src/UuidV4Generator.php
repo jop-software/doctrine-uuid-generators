@@ -8,8 +8,8 @@ use Symfony\Component\Uid\UuidV4;
 
 class UuidV4Generator extends AbstractIdGenerator
 {
-    public function generateId(EntityManagerInterface $em, $entity): UuidV4
-    {
-        return new UuidV4();
-    }
+	public function generateId(EntityManagerInterface $em, $entity): UuidV4
+	{
+		return new UuidV4();
+	}
 }
