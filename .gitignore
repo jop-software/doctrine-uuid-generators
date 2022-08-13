@@ -1,0 +1,13 @@
+###> jop-software/editors ###
+.idea
+.vscode
+###< jop-software/editors ###
+
+###> jop-software/copmoser ###
+vendor
+composer.lock
+###< jop-software/composer ###
+
+###> jop-software/qa-tools ###
+.phpunit.result.cache
+###< jop-software/qa-tools ###

@@ -1,0 +1,30 @@
+{
+  "name": "jop-software/doctrine-uuid-generators",
+  "description": "Generate UUIDs for your doctrine models",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jop-software Inh. Johannes Przymusinski",
+      "email": "info@jop-software.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "doctrine/orm": "^2.13",
+    "symfony/uid": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "JopSoftware\\DoctrineUuidGenerators\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JopSoftware\\DoctrineUuidGenerators\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
