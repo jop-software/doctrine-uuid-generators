@@ -12,7 +12,7 @@
   "require": {
     "php": "^8.0",
     "doctrine/orm": "^2.13",
-    "symfony/uid": "^5.3"
+    "symfony/uid": "^5.3 || ^6.0"
   },
   "autoload": {
     "psr-4": {
