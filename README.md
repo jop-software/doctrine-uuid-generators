@@ -48,6 +48,7 @@ class EntityName
 - [UuidV1Generator](src/UuidV1Generator.php)
 - [UuidV4Generator](src/UuidV4Generator.php)
 - [UuidV6Generator](src/UuidV6Generator.php)
+- [UlidGenerator](src/UlidGenerator.php)
 
 > Versions 3 and 5 are not implemented currently, because they are namespace based and there is no way currently to 
 > pass such a namespace to the generator in the `CustomIdGenerator` annotation. 
@@ -57,6 +58,6 @@ class EntityName
 This project is licensed under the [MIT LICENSE](LICENSE)
 
 <div align="center">
-	<span>&copy; 2022, jop-software Inh. Johannes Przymusinski</span>
+	<span>&copy; 2022-2023, jop-software Inh. Johannes Przymusinski</span>
 </div>
 
