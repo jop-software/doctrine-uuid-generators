@@ -8,7 +8,7 @@ use Symfony\Component\Uid\UuidV6;
 
 class UuidV6Generator extends AbstractIdGenerator
 {
-	public function generateId(EntityManagerInterface $em, $entity): UuidV6
+	public function generateId(EntityManagerInterface $em, object|null $entity): UuidV6
 	{
 		return new UuidV6();
 	}
