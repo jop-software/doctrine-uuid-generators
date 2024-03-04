@@ -53,11 +53,23 @@ class EntityName
 > Versions 3 and 5 are not implemented currently, because they are namespace based and there is no way currently to 
 > pass such a namespace to the generator in the `CustomIdGenerator` annotation. 
 
+## Versions
+
+| Version | State | `php` Version |
+| --- | --- | --- |
+| `2.x` | ![Supported](https://img.shields.io/badge/active_support-green?style=for-the-badge) | `^8.1` |
+| `1.x` | ![Security Support](https://img.shields.io/badge/security_and_enterprise-orange?style=for-the-badge) | `^8.0` |
+
+
+## Professional support
+
+Professional support is available. Please contact [support@jop-software.de](mailto:support@jop-software.de) for more information.
+
 ## License
 
 This project is licensed under the [MIT LICENSE](LICENSE)
 
 <div align="center">
-	<span>&copy; 2022-2023, jop-software Inh. Johannes Przymusinski</span>
+	<span>&copy; 2022-2024, jop-software Inh. Johannes Przymusinski</span>
 </div>
 
